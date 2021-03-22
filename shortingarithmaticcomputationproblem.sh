@@ -1,11 +1,9 @@
-#! /bin/bash
+#!/bin/bash
 
+read -p "Enter First Input :- " a
+read -p "Enter Second Input :- " b
+read -p "Enter Third Input :- " c
+echo "You Enter Inputs Is :- " $a, $b, $c
+Compute=$((a + b * c))
+echo "Compute (a+b*c):-"$Compute
 
-echo "Enter 1st Input:"
-read a
-echo "Enter 2nd Input:"
-read b
-echo "Enter 3rd Input:"
-read c
-
-echo "Three inputs are :" $a $b $c
